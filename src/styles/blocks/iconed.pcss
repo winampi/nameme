@@ -1,0 +1,25 @@
+.iconed-link {
+    display: flex;
+
+    @include tablets {
+        justify-content: center;
+    }
+
+    @include phones {
+        justify-content: initial;;
+      }
+}
+
+.iconed-link-icon {
+    fill: #576ed2;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.iconed-link {
+    flex-flow: row-reverse;
+    font-size: 18px;
+    font-weight: bold;
+    color: #576ed2;
+}
